@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonPlay1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startPlay1"
+        android:text="Play" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="375dp"
+        android:layout_height="125dp"
+        app:srcCompat="@drawable/jashn_e_baharaa" />
+
+    <Button
+        android:id="@+id/buttonPause1"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:onClick="pausePlay1"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/buttonPlay2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startPlay2"
+        android:text="Play" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="375dp"
+        android:layout_height="125dp"
+        app:srcCompat="@drawable/flute" />
+
+    <Button
+        android:id="@+id/buttonPause2"
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:onClick="pausePlay2"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/buttonPlay3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startPlay3"
+        android:text="Play" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="375dp"
+        android:layout_height="125dp"
+        app:srcCompat="@drawable/anoushka_shankar" />
+
+    <Button
+        android:id="@+id/buttonPause3"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:onClick="pausePlay3"
+        android:text="Pause" />
+</LinearLayout>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:orientation="vertical"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="top|center"-->
+    <!--tools:context=".MainActivity">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="List Example"-->
+        <!--android:layout_margin="20sp"-->
+        <!--android:textSize="40px"-->
+        <!--/>-->
+
+    <!--<ListView-->
+        <!--android:id="@+id/wordlist"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:entries="@array/words">-->
+    <!--</ListView>-->
+
+    <!--<RadioGroup-->
+    <!--android:orientation="horizontal"-->
+    <!--android:gravity="top|center"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+        <!--<RadioButton-->
+        <!--android:layoutDirection="ltr"-->
+        <!--android:id="@+id/rad_doggie"-->
+        <!--android:text="Dog"-->
+        <!--android:onClick="radioclick"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <!--<RadioButton-->
+        <!--android:id="@+id/rad_horse"-->
+        <!--android:text="Horses"-->
+        <!--android:checked="true"-->
+        <!--android:onClick="radioclick"-->
+        <!--android:layoutDirection="ltr"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--</RadioGroup>-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/my_pic"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/horse" />-->
+<!--</LinearLayout>-->
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:gravity="top"-->
+    <!--tools:context=".MainActivity">-->
+
+    <!--<RadioGroup-->
+        <!--android:orientation="horizontal"-->
+        <!--android:gravity="top|center"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<RadioButton-->
+            <!--android:layoutDirection="ltr"-->
+            <!--android:id="@+id/rad_doggie"-->
+            <!--android:text="Dog"-->
+            <!--android:onClick="radioclick"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<RadioButton-->
+            <!--android:id="@+id/rad_horse"-->
+            <!--android:text="Horses"-->
+            <!--android:checked="true"-->
+            <!--android:onClick="radioclick"-->
+            <!--android:layoutDirection="ltr"-->
+            <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--</RadioGroup>-->
+
+<!--</LinearLayout>-->
+

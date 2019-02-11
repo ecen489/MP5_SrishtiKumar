@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">T7-Lists1</string>
+    <string-array name="words">
+        <item>Lion</item>
+        <item>Tiger</item>
+        <item>Eagle</item>
+    </string-array>
+</resources>
